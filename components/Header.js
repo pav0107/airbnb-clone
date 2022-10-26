@@ -13,13 +13,13 @@ function Header() {
       {/* left */}
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <Image
-          src="/airbnb.png"
-          width={140}
-          height={10}
-          // layout="fill"
-          // objectFit="contain"
+          // src="/airbnb.png"
+          src="https://links.papareact.com/qd3"
+          width={100}
+          height={100}
+          // fill
+          // objectFit="scale-down"
           // objectPosition="left"
-          alt="logo"
         />
       </div>
 

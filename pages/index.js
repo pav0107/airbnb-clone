@@ -13,6 +13,12 @@ export default function Home() {
 
       <Header />
       <Banner />
+
+      <main>
+        <section>
+          <h2 className="text-4xl">Explore Nearby</h2>
+        </section>
+      </main>
     </div>
   );
 }
