@@ -18,7 +18,7 @@ function Header() {
           width={100}
           height={100}
           // fill
-          // objectFit="scale-down"
+          // objectFit="contain"
           // objectPosition="left"
         />
       </div>
