@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Airbnb clone
 
-This is an airbnb clone, deployed [here]()
+This is an airbnb clone, deployed [here](https://airbnb-clone-git-main-pav0107.vercel.app/)
 
 First, run the development server:
 
