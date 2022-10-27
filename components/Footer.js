@@ -9,17 +9,7 @@ function Footer() {
         <p>expedita at</p>
         <p>repudiandae cumque</p>
       </div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora et animi
-      doloribus, cumque illum nostrum beatae fuga consequuntur dolorem,
-      asperiores consectetur eaque debitis, mollitia optio autem corporis quod
-      nulla eligendi perferendis cupiditate quam provident. Ut cupiditate quam
-      tempore hic modi laboriosam ipsa dolor. Magnam ullam id officia omnis eos
-      consequuntur aspernatur ducimus eaque repellat, amet quod rerum iusto
-      dolorem molestiae, cupiditate dolores sequi eligendi facilis quibusdam
-      quia praesentium libero, neque soluta? Perferendis odit consequuntur nulla
-      voluptates fugit dicta excepturi. Vel laborum fugiat expedita at omnis et
-      repellendus perferendis repudiandae cumque doloribus consectetur culpa
-      ullam est harum, saepe, illum sequi inventore.
+
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">COMMUNITY</h5>
         <p>sequi inventore</p>
@@ -28,6 +18,7 @@ function Footer() {
         <p>adipisicing elit</p>
         <p>consequuntur pariatur</p>
       </div>
+
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">HOST</h5>
         <p>dolorem eos</p>
@@ -36,6 +27,7 @@ function Footer() {
         <p>non eos</p>
         <p>voluptatibus suscipit</p>
       </div>
+
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">SUPPORT</h5>
         <p>dolorum repudiandae</p>
