@@ -13,14 +13,10 @@ function Header() {
       {/* left */}
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <Image
-          // src="/airbnb.png"
           src="https://links.papareact.com/qd3"
           width={100}
           height={100}
           alt="header"
-          // fill
-          // objectFit="contain"
-          // objectPosition="left"
         />
       </div>
 
