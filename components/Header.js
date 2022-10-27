@@ -17,6 +17,7 @@ function Header() {
           src="https://links.papareact.com/qd3"
           width={100}
           height={100}
+          alt="header"
           // fill
           // objectFit="contain"
           // objectPosition="left"
