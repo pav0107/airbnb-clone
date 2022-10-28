@@ -6,7 +6,6 @@ import InfoCard from '../components/InfoCard';
 
 function Search({ searchResults }) {
   const router = useRouter();
-  console.log(searchResults);
 
   const { location, startDate, endDate, noOfGuests } = router.query;
 
