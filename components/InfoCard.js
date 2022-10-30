@@ -4,27 +4,26 @@ import { StarIcon } from '@heroicons/react/24/solid';
 
 function InfoCard({ img, location, title, description, star, price, total }) {
   return (
-    <div className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t">
-      <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
+    <div className="flex px-2 pr-4 transition duration-200 ease-out border-b cursor-pointer py-7 hover:opacity-80 hover:shadow-lg first:border-t">
+      <div className="relative flex-shrink-0 w-40 h-24 md:h-52 md:w-80">
         <Image
-          className="rounded-2xl"
+          className="object-cover rounded-2xl"
           src={img}
           fill
-          object-fit="cover"
           alt="infocard"
         />
       </div>
       <div className="flex flex-col flex-grow pl-5">
         <div className="flex justify-between">
           <p>{location}</p>
-          <HeartIcon className="h-7 cursor-pointer" />
+          <HeartIcon className="cursor-pointer h-7" />
         </div>
 
         <h4 className="text-xl">{title}</h4>
 
-        <div className="border-b w-10 pt-2" />
+        <div className="w-10 pt-2 border-b" />
 
-        <p className="pt-2 text-sm text-gray-500 flex-grow">{description}</p>
+        <p className="flex-grow pt-2 text-sm text-gray-500">{description}</p>
 
         <div className="flex justify-between">
           <p className="flex items-center">
@@ -33,7 +32,7 @@ function InfoCard({ img, location, title, description, star, price, total }) {
           </p>
 
           <div>
-            <p className="text-lg font-semibold pb-2 lg:text-2xl">{price}</p>
+            <p className="pb-2 text-lg font-semibold lg:text-2xl">{price}</p>
             <p className="text-right font-extralight">{total}</p>
           </div>
         </div>
